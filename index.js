@@ -1,15 +1,20 @@
-  function updateTimeAndDay() {
-    const timeElement = document.querySelector('[data-testid="currentUTCTime"]');
-    const dayElement = document.querySelector('[data-testid="currentDayOfTheWeek"]');
+// Function to update the current day of the week and UTC time in milliseconds
+function updateDayAndUTCTime() {
+  const dayElement = document.querySelector(
+    '[data-testid="currentDayOfTheWeek"]',
+  );
+  const timeElement = document.querySelector('[data-testid="currentUTCTime"]');
 
-    const currentDate = new Date();
-    const options = { hour: 'numeric', minute: 'numeric', second: 'numeric', timeZone: 'UTC' };
+  const currentDate = new Date();
 
-    timeElement.textContent = currentDate.toLocaleDateString('en-US', options);
+  dayElement.textContent = currentDate.toLocaleDateString("en-US", {
+    weekday: "long",
+  });
 
-    dayElement.textContent = currentDate.toLocaleDateString('en-US', { weekday: 'long' });
-  }
+  const currentUTCTimeInMilliseconds = currentDate.getTime();
+  timeElement.textContent = currentUTCTimeInMilliseconds.toString();
+}
 
-  updateTimeAndDay();
+updateDayAndUTCTime();
 
-  setInterval(updateTimeAndDay, 1000);
+setInterval(updateDayAndUTCTime, 1000);
