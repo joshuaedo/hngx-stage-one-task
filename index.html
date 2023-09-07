@@ -1,66 +1,67 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
     <title>HNGx Stage One Task</title>
 </head>
 <body>
     
   <main>
 
-    <section id="general-info">
+    <section>
         <div>
             <!-- Slack Display Picture -->
-            <img src="https://ca.slack-edge.com/T05FFAA91JP-U05RDAXPHL4-29c650970fcf-512" alt="Joshua Edo" data-testid="slackDisplayImage">
+            <img src="https://ca.slack-edge.com/T05FFAA91JP-U05RDAXPHL4-29c650970fcf-512" id="slack-display-image" alt="Joshua Edo" data-testid="slackDisplayImage">
          </div>
      
          <div>
             <!-- Slack Name -->
-            <h2 data-testid="slackUserName">Joshua Edo</h2>
+            <h2 data-testid="slackUserName" id="slack-user-name">Joshua Edo</h2>
              <!-- Track -->
-            <p data-testid="hngxTrack">Front-End Track</p>
-            <p data-testid="pronouns">he/him</p>
+            <p data-testid="hngxTrack" id="hngx-track">Front-End Track</p>
+            <p data-testid="pronouns" id="pronouns">he/him</p>
          </div>  
      
          <div>
-             <div data-testid="online status indicator" />
-             <div data-testid="online status text">Active</div>
+             <div data-testid="onlineStatusIndicator" id="online-status-indicator" />
+             <div data-testid="onlineStatusText" id="online-status-text">Active</div>
          </div>
      
          <div>
               <!-- Icon -->
              <!-- Current UTC Time -->
-             <time data-testid="currentUTCTime">12:00 PM UTC</time>
+             <time data-testid="currentUTCTime" class="time">12:00 PM UTC</time>
          </div>
      
          <div>
              <!-- Icon -->
              <!-- Current Day of the Week -->
-             <time data-testid="currentDayOfTheWeek">Thursday</time>
+             <time data-testid="currentDayOfTheWeek" class="time">Thursday</time>
         </div>
     </section>
 
-    <section id="contact-info">
-        <div>
+    <section>
+        <div id="contact-info">
           <p>Contact Information</p>
         </div>   
 
         <div>
             <!-- Icon -->
             <div>
-                <p>Email</p>
+                <p class="contact-header">Email</p>
                 <!-- GitHub URL -->
-                <a href="mailto:joshua.edo01@gmail.com" data-testid="email">joshua.edo01@gmail.com</a>
+                <a href="mailto:joshua.edo01@gmail.com" data-testid="email" class="contact-link">joshua.edo01@gmail.com</a>
             </div>
         </div>   
 
         <div>
             <!-- Icon -->
             <div>
-                <p>Website</p>
+                <p class="contact-header">Website</p>
                 <!-- Website URL -->
-                <a href="https://joshuaedo.com/" data-testid="websiteURL">joshuaedo.com</a>
+                <a href="https://joshuaedo.com/" data-testid="websiteURL" class="contact-link">joshuaedo.com</a>
             </div>
         </div>   
 
@@ -69,25 +70,25 @@
             <div>
                 <p>Twitter</p>
                 <!-- Twitter URL -->
-                <a href="https://twitter.com/thegr8joshua/" data-testid="twitterURL">@thegr8joshua</a>
+                <a href="https://twitter.com/thegr8joshua/" data-testid="twitterURL" class="contact-link">@thegr8joshua</a>
             </div>
         </div>   
 
         <div>
             <!-- Icon -->
             <div>
-                <p>Github</p>
+                <p class="contact-header">Github</p>
                 <!-- GitHub URL -->
-                <a href="https://github.com/joshuaedo/" data-testid="githubURL">@joshuaedo</a>
+                <a href="https://github.com/joshuaedo/" data-testid="githubURL" class="contact-link">@joshuaedo</a>
             </div>
         </div>   
 
         <div>
             <!-- Icon -->
             <div>
-                <p>LinkedIn</p>
+                <p class="contact-header">LinkedIn</p>
                 <!-- linkedin URL -->
-                <a href="https://linkedin.com/in/joshuaedo/" data-testid="linkedinURL">@joshuaedo</a>
+                <a href="https://linkedin.com/in/joshuaedo/" data-testid="linkedinURL" class="contact-link">@joshuaedo</a>
             </div>
         </div>   
     </section>
