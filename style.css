@@ -49,17 +49,21 @@ p, h2 {
 }
 
 /* Online Status */
+#online-status {
+display: flex;
+align-items: center;
+}
+
 #online-status-indicator{
  width: 9px;
  height: 9px;
  border-radius: 50%;
  background-color: #007A5A;
- display: inline-block;
+ margin: 0.5rem;
 }
 
-#online-status-text {
- display: inline-block;
- margin-right: 0.5rem;
+#online-status > span {
+
 }
 
 /* Time and Date */
@@ -77,7 +81,7 @@ p, h2 {
 }
 
 #contact-header {
-
+ font-weight: bold;
 }
 
 .contact-info > i, .time-and-date > i {
