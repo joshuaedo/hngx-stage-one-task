@@ -14,6 +14,7 @@ main {
   background-color: #fff;
   width: 30rem;
   margin: 5rem auto;
+  padding: 1rem;
   border-radius: 1rem;
 }
 
@@ -26,9 +27,8 @@ footer {
 }
 
 #slack-display-image {
-  width: 20rem;
-  height: 20rem;
-  margin: 1rem auto;
+  width: 17rem;
+  height: 17rem;
   border-radius: 1rem;
 }
 
@@ -45,11 +45,19 @@ footer {
 }
 
 #online-status-indicator{
-
+ width: 5px;
+ height: 5px;
+ background-color: #007A5A;
 }
 
 #online-status-text {
 
+}
+
+.contact-icons {
+ height: 1rem;
+ width: 1rem;
+ color: black;
 }
 
 .contact-info {

@@ -11,16 +11,16 @@
   <main class="shadow">
 
     <section>
-        <div>
+        <div class="center-with-flex">
             <!-- Slack Display Picture -->
-            <img src="https://ca.slack-edge.com/T05FFAA91JP-U05RDAXPHL4-29c650970fcf-512" id="slack-display-image" alt="Joshua Edo" data-testid="slackDisplayImage">
+            <img src="https://ca.slack-edge.com/T05FFAA91JP-U05RDAXPHL4-29c650970fcf-512" id="slack-display-image" alt="joshuaedo" data-testid="slackDisplayImage">
          </div>
      
          <div>
             <!-- Slack Name -->
-            <h2 data-testid="slackUserName" id="slack-user-name">Joshua Edo</h2>
+            <h2 data-testid="slackUserName" id="slack-user-name">joshuaedo</h2>
              <!-- Track -->
-            <p data-testid="hngxTrack" id="hngx-track">Front-End Track</p>
+            <p data-testid="hngxTrack" id="hngx-track">Front-End</p>
             <p data-testid="pronouns" id="pronouns">he/him</p>
          </div>  
      
@@ -30,13 +30,13 @@
          </div>
      
          <div>
-              <!-- Icon -->
+            <i data-lucide="clock"></i>
              <!-- Current UTC Time -->
              <time data-testid="currentUTCTime" class="time">12:00 PM UTC</time>
          </div>
      
          <div>
-             <!-- Icon -->
+            <i data-lucide="calendar-days"></i>
              <!-- Current Day of the Week -->
              <time data-testid="currentDayOfTheWeek" class="time">Thursday</time>
         </div>
@@ -48,16 +48,16 @@
         </div>   
 
         <div>
-            <!-- Icon -->
+            <i data-lucide="mail" class="contact-icons"></i>
             <div>
-                <p class="contact-header">Email</p>
+                <p class="contact-header"=">Email</p>
                 <!-- GitHub URL -->
                 <a href="mailto:joshua.edo01@gmail.com" data-testid="email" class="contact-link">joshua.edo01@gmail.com</a>
             </div>
         </div>   
 
         <div>
-            <!-- Icon -->
+            <i data-lucide="globe" class="contact-icons"></i>
             <div>
                 <p class="contact-header">Website</p>
                 <!-- Website URL -->
@@ -66,7 +66,7 @@
         </div>   
 
         <div>
-            <!-- Icon -->
+            <i data-lucide="twitter" class="contact-icons"></i>
             <div>
                 <p>Twitter</p>
                 <!-- Twitter URL -->
@@ -75,7 +75,7 @@
         </div>   
 
         <div>
-            <!-- Icon -->
+            <i data-lucide="github" class="contact-icons"></i>
             <div>
                 <p class="contact-header">Github</p>
                 <!-- GitHub URL -->
@@ -84,7 +84,7 @@
         </div>   
 
         <div>
-            <!-- Icon -->
+            <i data-lucide="linkedin" class="contact-icons"></i>
             <div>
                 <p class="contact-header">LinkedIn</p>
                 <!-- linkedin URL -->
@@ -98,6 +98,10 @@
     </footer>
 
   </main>
-
+  
+  <script src="https://unpkg.com/lucide@latest"></script>
+  <script>
+    lucide.createIcons();
+  </script>
 </body>
 </html>
