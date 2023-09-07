@@ -54,9 +54,10 @@ footer {
 
 #pronouns {
  margin-bottom: 0.4rem;
- font-size: small;
+ font-size: medium;
 }
 
+/* Online Status */
 #online-status-indicator{
  width: 9px;
  height: 9px;
@@ -70,6 +71,7 @@ footer {
  margin-right: 0.5rem;
 }
 
+/* Time and Date */
 .time-and-date {
 
 }
@@ -78,7 +80,11 @@ footer {
 
 }
 
-/* Second Section */
+.time-and-date > p {
+
+}
+
+/* Contact Section */
 .contact-info {
  display: flex;
 }
@@ -87,7 +93,7 @@ footer {
 
 }
 
-.contact-info > i {
+.contact-info > i, .time-and-date > i {
  height: 1.2rem;
  width: 1.2rem;
  color: #6E6D6E;
