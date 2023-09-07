@@ -40,16 +40,18 @@ footer {
 }
 
 #slack-user-name {
- margin-bottom: 1rem;
+ margin-bottom: 0.5rem;
+ font-size: large;
 }
 
 #hngx-track {
- margin-bottom: 1rem;
- font-weight: normal;
+ margin-bottom: 0.5rem;
+ font-weight: medium;
+ font-size: large;
 }
 
 #pronouns {
- margin-bottom: 1rem;
+ margin-bottom: 0.5rem;
 }
 
 #online-status-indicator{
@@ -57,6 +59,7 @@ footer {
  height: 7px;
  border-radius: 50%;
  background-color: #007A5A;
+ display: inline-block;
 }
 
 #online-status-text {
