@@ -63,7 +63,7 @@ align-items: center;
 }
 
 #online-status > span {
-
+ font-size: small;
 }
 
 /* Time and Date */
@@ -97,11 +97,12 @@ align-items: center;
 }
 
 .contact-info > div > a {
- color: lightgray;
+ color: blue;
 }
 
 .contact-info > div > p {
- color: blue;
+ color: gray;
+ font-size: x-small;
 }
 
 /* Footer */
