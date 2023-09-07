@@ -8,7 +8,7 @@
 body {
   font-family: "Inter";
   color: #23252c;
-  background: #D9E0EA;
+  background: #d9e0ea;
 }
 
 main {
@@ -19,9 +19,15 @@ main {
   border-radius: 1rem;
 }
 
-p, h2 {
+p,
+h2 {
   margin-block-start: 0;
   margin-block-end: 0;
+}
+
+a {
+  color: blue;
+  text-decoration: none;
 }
 
 /* First Section */
@@ -31,95 +37,107 @@ p, h2 {
   border-radius: 1rem;
 }
 
+#general-info {
+  text-align: center;
+}
+
 #slack-user-name {
- margin-top: 0.4rem;
- margin-bottom: 0.4rem;
- font-size: x-large;
+  margin-top: 0.4rem;
+  margin-bottom: 0.4rem;
+  font-size: x-large;
 }
 
 #hngx-track {
- margin-bottom: 0.4rem;
- font-weight: medium;
- font-size: large;
+  margin-bottom: 0.4rem;
+  font-weight: medium;
+  font-size: large;
 }
 
 #pronouns {
- margin-bottom: 0.4rem;
- font-size: medium;
+  margin-bottom: 0.4rem;
+  font-size: medium;
 }
 
 /* Online Status */
 #online-status {
-display: flex;
-align-items: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 0.8rem;
 }
 
-#online-status-indicator{
- width: 9px;
- height: 9px;
- border-radius: 50%;
- background-color: #007A5A;
- margin: 0.5rem;
+#online-status-indicator {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #007a5a;
+  margin-right: 0.5rem;
 }
 
 #online-status > span {
- font-size: small;
+  font-size: small;
 }
 
 /* Time and Date */
 .time-and-date {
-
+  display: flex;
+  align-items: center;
 }
 
-.time-and-date > p {
- font-size: medium;
+.time-and-date > time {
+  font-size: medium;
+  display: inline-block;
 }
 
 /* Contact Section */
 .contact-info {
- display: flex;
+  display: flex;
+  padding-top: 0.8rem;
+  padding-bottom: 0.8rem;
 }
 
 #contact-header {
- font-weight: bold;
-}
-
-.contact-info > i, .time-and-date > i {
- height: 1.2rem;
- width: 1.2rem;
- color: #6E6D6E;
- display: inline-block;
- margin-right: 2rem;
+  margin-top: 0.8rem;
+  font-weight: 500;
 }
 
 .contact-info > div > a {
- color: blue;
+  font-size: medium;
 }
 
 .contact-info > div > p {
- color: darkgray;
- font-size: small;
+  color: #6e6d6e;
+  font-size: small;
+  font-weight: 500;
+  margin-bottom: 0.5rem;
 }
 
 /* Footer */
 #source-code {
-
-}
-
-#source-code > a {
- color: lightblue;
+  font-size: small;
 }
 
 /* Generic Reusable classes */
+.icons {
+  height: 1.2rem;
+  width: 1.2rem;
+  color: #6e6d6e;
+}
+
+.icons-container {
+  margin: 0.5rem 1rem 0.5rem 0;
+}
+
 .center-with-flex {
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: start;
 }
 
 .shadow {
   --tw-shadow: 0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1);
-  --tw-shadow-colored: 0 1px 3px 0 var(--tw-shadow-color), 0 1px 2px -1px var(--tw-shadow-color);
-  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+  --tw-shadow-colored: 0 1px 3px 0 var(--tw-shadow-color),
+    0 1px 2px -1px var(--tw-shadow-color);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000),
+    var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
 }
-

@@ -1,107 +1,139 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+  <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
     <title>HNGx Stage One Task</title>
-</head>
-<body>
-    
-  <main class="shadow">
-
-    <section>
+  </head>
+  <body>
+    <main class="shadow">
+      <section>
         <div class="center-with-flex">
-            <!-- Slack Display Picture -->
-            <img src="https://ca.slack-edge.com/T05FFAA91JP-U05RDAXPHL4-29c650970fcf-512" id="slack-display-image" alt="joshuaedo" data-testid="slackDisplayImage">
-         </div>
-     
-         <div>
-            <!-- Slack Name -->
-            <h2 data-testid="slackUserName" id="slack-user-name">joshuaedo</h2>
-             <!-- Track -->
-            <p data-testid="hngxTrack" id="hngx-track">Front-End</p>
-            <p data-testid="pronouns" id="pronouns">he/him</p>
-         </div>  
-     
-         <div id="online-status">
-             <div data-testid="onlineStatusIndicator" id="online-status-indicator"></div>
-             <span data-testid="onlineStatusText">Active</span>
-         </div>
-     
-         <div class="time-and-date">
-            <i data-lucide="clock" class="contact-icons"></i>
-             <!-- Current UTC Time -->
-             <time data-testid="currentUTCTime" class="time">12:00 PM UTC</time>
-         </div>
-     
-         <div class="time-and-date">
-            <i data-lucide="calendar-days" class="contact-icons"></i>
-             <!-- Current Day of the Week -->
-             <time data-testid="currentDayOfTheWeek" class="time">Thursday</time>
+          <img
+            src="https://ca.slack-edge.com/T05FFAA91JP-U05RDAXPHL4-29c650970fcf-512"
+            id="slack-display-image"
+            alt="joshuaedo"
+            data-testid="slackDisplayImage"
+          />
         </div>
-    </section>
 
-    <section>
+        <div id="general-info">
+          <h2 data-testid="slackUserName" id="slack-user-name">joshuaedo</h2>
+          <p data-testid="hngxTrack" id="hngx-track">Front-End</p>
+          <p data-testid="pronouns" id="pronouns">he/him</p>
+        </div>
+
+        <div id="online-status">
+          <div
+            data-testid="onlineStatusIndicator"
+            id="online-status-indicator"
+          ></div>
+          <span data-testid="onlineStatusText">Active</span>
+        </div>
+
+        <div class="time-and-date">
+          <div class="icons-container center-with-flex">
+            <i data-lucide="clock" class="icons"></i>
+          </div>
+          <time data-testid="currentUTCTime" class="time"></time>
+        </div>
+
+        <div class="time-and-date">
+          <div class="icons-container center-with-flex">
+            <i data-lucide="calendar-days" class="icons"></i>
+          </div>
+          <time data-testid="currentDayOfTheWeek" class="time"></time>
+        </div>
+      </section>
+
+      <section>
         <div id="contact-header">
           <p>Contact Information</p>
-        </div>   
+        </div>
 
         <div class="contact-info">
-            <i data-lucide="mail"></i>
-            <div>
-                <p class="contact-header">Email</p>
-                <!-- GitHub URL -->
-                <a href="mailto:joshua.edo01@gmail.com" data-testid="email">joshua.edo01@gmail.com</a>
-            </div>
-        </div>   
+          <div class="icons-container center-with-flex">
+            <i data-lucide="mail" class="icons"></i>
+          </div>
+          <div>
+            <p class="contact-header">Email</p>
+
+            <a href="mailto:joshua.edo01@gmail.com" data-testid="email"
+              >joshua.edo01@gmail.com</a
+            >
+          </div>
+        </div>
 
         <div class="contact-info">
-            <i data-lucide="globe"></i>
-            <div>
-                <p>Website</p>
-                <!-- Website URL -->
-                <a href="https://joshuaedo.com/" data-testid="websiteURL">joshuaedo.com</a>
-            </div>
-        </div>   
+          <div class="icons-container center-with-flex">
+            <i data-lucide="globe" class="icons"></i>
+          </div>
+          <div>
+            <p>Website</p>
+            <a href="https://joshuaedo.com/" data-testid="websiteURL"
+              >joshuaedo.com</a
+            >
+          </div>
+        </div>
 
         <div class="contact-info">
-            <i data-lucide="twitter"></i>
-            <div>
-                <p>Twitter</p>
-                <!-- Twitter URL -->
-                <a href="https://twitter.com/thegr8joshua/" data-testid="twitterURL">@thegr8joshua</a>
-            </div>
-        </div>   
+          <div class="icons-container center-with-flex">
+            <i data-lucide="twitter" class="icons"></i>
+          </div>
+          <div>
+            <p>Twitter</p>
+            <a href="https://twitter.com/thegr8joshua/" data-testid="twitterURL"
+              >@thegr8joshua</a
+            >
+          </div>
+        </div>
 
         <div class="contact-info">
-            <i data-lucide="github"></i>
-            <div>
-                <p class="contact-header">Github</p>
-                <!-- GitHub URL -->
-                <a href="https://github.com/joshuaedo/" data-testid="githubAccountURL">@joshuaedo</a>
-            </div>
-        </div>   
+          <div class="icons-container center-with-flex">
+            <i data-lucide="github" class="icons"></i>
+          </div>
+          <div>
+            <p class="contact-header">Github</p>
+            <a
+              href="https://github.com/joshuaedo/"
+              data-testid="githubAccountURL"
+              >@joshuaedo</a
+            >
+          </div>
+        </div>
 
         <div class="contact-info">
-            <i data-lucide="linkedin"></i>
-            <div>
-                <p>LinkedIn</p>
-                <!-- linkedin URL -->
-                <a href="https://linkedin.com/in/joshuaedo/" data-testid="linkedinURL">@joshuaedo</a>
-            </div>
-        </div>   
-    </section>
+          <div class="icons-container center-with-flex">
+            <i data-lucide="linkedin" class="icons"></i>
+          </div>
+          <div>
+            <p>LinkedIn</p>
+            <a
+              href="https://linkedin.com/in/joshuaedo/"
+              data-testid="linkedinURL"
+              >@joshuaedo</a
+            >
+          </div>
+        </div>
+      </section>
 
-    <footer id="source-code">
-        <p>The source code for this task can be found <a href="https://github.com/joshuaedo/hngx-stage-one-task" data-testid="githubURL">here</a>.</p>
-    </footer>
+      <footer id="source-code">
+        <p>
+          The source code for this task can be found
+          <a
+            href="https://github.com/joshuaedo/hngx-stage-one-task"
+            data-testid="githubURL"
+            >here</a
+          >.
+        </p>
+      </footer>
+    </main>
 
-  </main>
-  
-  <script src="https://unpkg.com/lucide@latest"></script>
-  <script>
-    lucide.createIcons();
-  </script>
-</body>
+    <script src="./index.js"></script>
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <script>
+      lucide.createIcons();
+    </script>
+  </body>
 </html>
