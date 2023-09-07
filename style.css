@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
 
+/* General Styles */
 * {
   box-sizing: border-box;
 }
@@ -32,7 +33,7 @@ footer {
 }
 
 
-
+/* First Section */
 #slack-display-image {
   width: 17rem;
   height: 17rem;
@@ -69,26 +70,44 @@ footer {
  margin-right: 0.5rem;
 }
 
-.time {
+.time-and-date {
 
 }
 
-.contact-icons {
+.time-and-date {
+
+}
+
+/* Second Section */
+.contact-info {
+ display: flex;
+}
+
+#contact-header {
+
+}
+
+.contact-info > i {
  height: 1.2rem;
  width: 1.2rem;
- color: 6E6D6E;
+ color: #6E6D6E;
  display: inline-block;
  margin-right: 0.5rem;
 }
 
-.contact-info {
+.contact-info > div {
   display: inline-block;
 }
 
-.contact-link {
+.contact-info > div > a {
 
 }
 
+.contact-info > div > p {
+
+}
+
+/* Generic Reusable classes */
 .center-with-flex {
   display: flex;
   justify-content: center;
