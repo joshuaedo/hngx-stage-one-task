@@ -40,43 +40,48 @@ footer {
 }
 
 #slack-user-name {
- margin-bottom: 0.5rem;
- font-size: large;
+ margin-top: 0.4rem;
+ margin-bottom: 0.4rem;
+ font-size: x-large;
 }
 
 #hngx-track {
- margin-bottom: 0.5rem;
+ margin-bottom: 0.4rem;
  font-weight: medium;
  font-size: large;
 }
 
 #pronouns {
- margin-bottom: 0.5rem;
+ margin-bottom: 0.4rem;
+ font-size: small;
 }
 
 #online-status-indicator{
- width: 7px;
- height: 7px;
+ width: 9px;
+ height: 9px;
  border-radius: 50%;
  background-color: #007A5A;
  display: inline-block;
 }
 
 #online-status-text {
-
+ display: inline-block;
+ margin-right: 0.5rem;
 }
 
 .contact-icons {
  height: 1.2rem;
  width: 1.2rem;
  color: 6E6D6E;
+ display: inline-block;
+ margin-right: 0.5rem;
 }
 
 .contact-info {
-
+  display: inline-block;
 }
 
-#contact-link {
+contact-link {
 
 }
 
