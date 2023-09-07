@@ -19,6 +19,15 @@ main {
   border-radius: 1rem;
 }
 
+@media only screen and (max-width: 600px) {
+  main {
+    width: auto;
+    margin: 5rem 1rem;
+    padding: 1.5rem;
+    border-radius: 0.8rem;
+  }
+}
+
 p,
 h2 {
   margin-block-start: 0;
