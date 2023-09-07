@@ -1,0 +1,19 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Inter";
+  color: #23252c;
+  background: #D9E0EA;
+}
+
+main {
+  background-color: #fff;
+  width: 19.813rem;
+  height: 48.75rem;
+  margin: 5rem auto;
+  border-radius: 1.063rem;
+}
