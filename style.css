@@ -97,11 +97,11 @@ align-items: center;
 }
 
 .contact-info > div > a {
-
+ color: lightgray;
 }
 
 .contact-info > div > p {
-
+ color: blue;
 }
 
 /* Footer */
