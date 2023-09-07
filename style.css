@@ -26,8 +26,8 @@ footer {
 }
 
 #slack-display-image {
-  width: 10rem;
-  height: 10rem;
+  width: 20rem;
+  height: 20rem;
   margin: 1rem auto;
   border-radius: 1rem;
 }
@@ -58,6 +58,12 @@ footer {
 
 #contact-link {
 
+}
+
+.center-with-flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .shadow {
